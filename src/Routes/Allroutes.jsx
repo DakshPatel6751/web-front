@@ -23,9 +23,9 @@ const Allroutes = () => {
      <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/new' element={
-            <Privatepage>
+         
             <New/>
-            </Privatepage>
+          
         }></Route>
           <Route path='/gifts' element={<Gifts/>}></Route>
           <Route path='/cards' element={<Cards/>}></Route>
